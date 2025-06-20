@@ -1,11 +1,10 @@
- 
+import Image from "next/image";
 
 export default function Home() {
   return (
-     <>
-     <div className="flex justify-center items-center h-screen">
-      <h1 className="text-4xl text-cyan-500 text-center">Aaali re aali , tu NextJs ki Bari aali.</h1>
-     </div>
-     </>
+      <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] ">
+        <h1 className="text-2xl font-bold text-center">Vikas and Code</h1>
+      </main> 
+    
   );
 }
