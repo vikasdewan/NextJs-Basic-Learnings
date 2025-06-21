@@ -47,7 +47,7 @@ export const MenuItem = ({
               >
                 <motion.div
                   layout // layout ensures smooth animation
-                  className="w-max h-full p-4 font-bold dark:bg-blue-700 text-white "
+                  className="w-max h-full p-4 font-bold dark:bg-cyan-700 text-white "
                 >
                   {children}
                 </motion.div>
