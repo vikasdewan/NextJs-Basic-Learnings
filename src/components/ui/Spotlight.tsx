@@ -7,7 +7,11 @@ type SpotlightProps = {
   direction?: "left" | "right"; // New prop
 };
 
-export const Spotlight = ({ className, fill, direction = "left" }: SpotlightProps) => {
+export const Spotlight = ({
+  className,
+  fill,
+  direction = "left",
+}: SpotlightProps) => {
   // Left = original matrix, Right = mirrored matrix
   const transformMatrix =
     direction === "left"
