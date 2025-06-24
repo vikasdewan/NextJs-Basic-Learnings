@@ -2,11 +2,17 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/moving-border";
 import { Spotlight } from "./ui/Spotlight";
+import { cn } from "@/lib/utils";
 
 const HeroSection = () => {
   return (
     <>
-      <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
+      <div className={` ${cn(
+          "absolute inset-0",
+          "[background-size:20px_20px]",
+          "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
+          "dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]",
+        )}  h-auto md:h-[44rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0`}>
         <Spotlight
           className="-top-40 left-0 md:-top-20 md:left-20"
           fill="white"
