@@ -20,10 +20,10 @@ const Navbar = ({ className }: { className?: string }) => {
         </Link>
         <MenuItem setActive={setActive} active={active} item="Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="#">Guitar Lessons</HoveredLink>
-            <HoveredLink href="#"> VioLen Lessons </HoveredLink>
-            <HoveredLink href="#"> Sangit 2.O </HoveredLink>
-            <HoveredLink href="#"> Sur 2.O</HoveredLink>
+            <HoveredLink href="/courses">All Courses</HoveredLink>
+            <HoveredLink href="/courses"> VioLen Lessons </HoveredLink>
+            <HoveredLink href="/courses"> Sangit 2.O </HoveredLink>
+            <HoveredLink href="/courses"> Sur 2.O</HoveredLink>
           </div>
         </MenuItem>
         <Link href={"/contact"}>
